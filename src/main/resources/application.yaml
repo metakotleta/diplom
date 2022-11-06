@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  sql:
+    init:
+      mode: never
+
+  datasource:
+    url: jdbc:postgresql://77.91.69.98:5432/TestDB
+    username: db_user
+    password: db_user
+    hikari:
+      schema: public
+
+  mvc:
+    dispatch-options-request: true
+
+  jpa:
+    show-sql: true

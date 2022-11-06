@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - changeSet:
+      id: DEV-1
+      author: devmarkru
+  - include:
+      file: db/changelog/db.changelog-1.0.sql
